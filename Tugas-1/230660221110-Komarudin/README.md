@@ -33,7 +33,7 @@ graph LR
     C -->|Return Data JSON| B
     B -->|HTTP Response 200 OK| A
 
-```
+``
 
 > **Berkas Diagram:** Kode sumber Mermaid tersimpan dalam repositori ini (`architecture_diagram.mmd`) beserta hasil ekspor gambarnya (`architecture_diagram.png`).
 
