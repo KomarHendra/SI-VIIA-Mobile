@@ -1,0 +1,5 @@
+graph LR
+    A[Aplikasi Mobile Flutter] -->|HTTP Request / REST API| B[Backend API SI Perpustakaan]
+    B -->|Query / SQL Read-Write| C[(Database MySQL/PostgreSQL)]
+    C -->|Return Data JSON| B
+    B -->|HTTP Response 200 OK| A
